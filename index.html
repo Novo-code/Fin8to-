@@ -206,7 +206,7 @@
         /* --- DASHBOARD SYSTEM --- */
         #dashboard {
             display: none;
-            grid-template-columns: 120px 1fr;
+            grid-template-columns: 100px 1fr;
             min-height: 100vh;
         }
 
@@ -335,9 +335,9 @@
         .balance-hero {
             background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
             color: white;
-            padding: 30px;
-            border-radius: 8px;
-            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
@@ -349,8 +349,8 @@
         }
 
         .balance-amount {
-            font-size: 2.1rem;
-            font-weight: 600;
+            font-size: 1.5rem;
+            font-weight: 400;
             margin: 10px 0;
         }
 
@@ -436,17 +436,17 @@
             max-height: 400px;
             overflow-y: auto;
             border: 1px solid var(--border-color);
-            border-radius: 4px;
+            border-radius: 8px;
         }
 
         .tx-table {
-            width: 80%;
+            width: 100%;
             border-collapse: collapse;
             background: white;
         }
 
         .tx-table th, .tx-table td {
-            padding: 12px 15px;
+            padding: 10px 12px;
             text-align: left;
             border-bottom: 1px solid var(--border-color);
         }
@@ -462,7 +462,7 @@
 
         .tx-table th {
             background-color: #f8fafc;
-            font-weight: 600;
+            font-weight: 400;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -809,7 +809,7 @@
                     <h2>Account Overview</h2>
                 </div>
                 <div class="balance-hero">
-                    <div class="balance-label">Atlantic Union Free Personal Checking</div>
+                    <div class="balance-label">Atlantic Union Personal Checking</div>
                     <div class="balance-amount" id="displayBalance">$780,570.00</div>
                     <div class="account-meta">Account Type: Standard Checking Ledger | Status: Active &bull; Currency: USD ($)</div>
                 </div>
